@@ -6,7 +6,7 @@ export const metadata = {
   title: "Promptopia",
   descteption: "Discover and share AI prompts",
   icons: {
-    icon: '/assets/images/logo.svg',
+    icon: "/assets/images/logo.svg",
   },
 };
 
@@ -21,7 +21,6 @@ const RootLayout = ({ children }) => {
           <main className="app">
             <Nav />
             {children}
-            
           </main>
         </Provider>
       </body>
